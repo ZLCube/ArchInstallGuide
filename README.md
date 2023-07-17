@@ -141,3 +141,19 @@ Esto hará que cuando queramos convertirnos en x usuario nos pida la contraseña
 Te recomiendo tomar un snapshot de la máquina base estable y limpia de cualquier paquetería antes de personalizara, así en caso de que se rompa alguna dependencia siempre podemos volver a nuestra base inicial
 
 ![](https://github.com/ZLCube/ArchInstallGuide/blob/main/Contenido/snapshot.png)
+
+
+# Blackarch
+
+Ahora para instalar las herramientas de BlackArch por encima de nuestra instalación limpia de Arch Linux necesitamos lo siguiente:
+
+1) Copiaremos el script de instalación con el siguiente comando:
+```curl -O https://blackarch.org/strap.sh```
+2) Le damos permiso de ejecución al archivo con:
+```chmod +x strap.sh```
+3) Por último ejecutamos el script de instalación:
+```./strap.sh```
+
+Todo este procedimiento nos dejará instalado el repositorio de BlackArch donde lo único que necesitaremos para instalar las herramientas es el comando sudo pacman -S 
+* Por ejemplo instalemos metasploit con el comando ```sudo pacman -S metasploit```
+* La misma dinámica nos servirá para cualquier otra herramienta que necesitemos
