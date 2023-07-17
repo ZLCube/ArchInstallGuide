@@ -92,12 +92,13 @@ Para guardar los cambios ejecutamos el comando ```locale-gen```
 16) Ahora configuramos nuestro local host en el archivo de /etc/hosts donde agregaremos los siguientes parámetros: 
 
 ------------------------------------------------------------------------------------
+```
 127.0.0.1 	localhost
 
 ::1		localhost
 
 127.0.0.1	(nombredetuequipo).localhost (nombredetuequipo)
-
+```
 
 ![](https://github.com/ZLCube/ArchInstallGuide/blob/main/Contenido/localhost.png)
 
