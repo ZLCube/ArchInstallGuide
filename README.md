@@ -1,6 +1,6 @@
 1) En caso de querer el teclado en español usaremos el comando ```loadkeys es```
 2) Verificamos que tenemos conexión a internet con el comando ```ping -c 1 google.com```
-![[ping.png]]
+![](https://github.com/ZLCube/ArchInstallGuide/blob/main/Contenido/ping.png)
 3) Particionamos el disco, para esto usaremos el comando ```cfdisk``` y seleccionaremos la opción "dos" (Esta configuración es para máquinas virtuales)
 ![[cfdisk.png]]
 * Vamos a crear tres particiones nuevas, boot, root y swap
