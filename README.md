@@ -154,6 +154,7 @@ Ahora para instalar las herramientas de BlackArch por encima de nuestra instalac
 2) Le damos permiso de ejecución al archivo con:
 ```chmod +x strap.sh```
 3) Por último ejecutamos el script de instalación (Tienes que usar sudo para que se pueda ejecutar el script):
+
 ```sudo ./strap.sh```
 
 Todo este procedimiento nos dejará instalado el repositorio de BlackArch donde lo único que necesitaremos para instalar las herramientas es el comando sudo pacman -S 
