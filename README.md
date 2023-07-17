@@ -1,6 +1,8 @@
 # Guía de instalación ArchLinux/BlackArch desde cero
 
-En esta guía tendrás el paso a paso de cómo instalar Arch linux desde cero en vmware desde el archivo .iso, acabaremos con una interfaz gráfica gnome y posteriormente veremos cómo instalar las dependencias y herramientas de BlackArch por encima. Un agradecimiento especial a L4nder por su apoyo ---> https://lander4k.github.io/
+En esta guía tendrás el paso a paso de cómo instalar Arch linux desde cero en vmware desde el archivo .iso, acabaremos con una interfaz gráfica gnome y posteriormente veremos cómo instalar las dependencias y herramientas de BlackArch por encima. 
+
+Un agradecimiento especial a L4nder por su apoyo ---> https://lander4k.github.io/
 
 Empezando desde el primer booteo tendremos una terminal como root.
 
